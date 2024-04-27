@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title> YOtrack</title><link rel="icon" href="media/images/logo/2.png" type="image/x-icon"  > 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css"> 
+   
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainnav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> 
+            <i class="fa-solid fa-music fa-beat" style="color: #5BDFF7;"></i>YOtrack
+            <div style="font-size: 13px; color:#F75BA0;">Unleash Your Potential </div>
+          </a>
+           <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> 
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="text-white h4 mx-3"  >
+            <a href="">
+                <i class="fab fa-facebook fa-inverse" style="color:blue;"></i>
+            </a>
+            <a href="">  
+                <i class="fab fa-instagram fa-inverse" style="color:blue;"></i>
+            </a>
+            <a href=""> 
+                <i class="fab fa-twitter fa-inverse" style="color:blue;"></i>
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="act">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Single Layout 1 – Xenon.html">Blog</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New Release</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Genre
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">AfroBeats</a></li>
+                  <li><a class="dropdown-item" href="#">Pop</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+      <!-- -----------------------------------End of navigation------------------------------------ -->
+      <div class="nav-space"></div>
+
+<!-- -----------------------------------Beginning of Hero area------------------------------------ -->
+     <div class="hero-area pt-5 mt-5">
+        <!-- Nav Pills Section -->
+         <ul class="hero-nav nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="text-white nav-link show active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Featured</button>
+          </li>
+          <li class=" nav-item" role="presentation">
+            <button class="text-white nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Trending</button>
+          </li>
+         <li class="nav-item" role="presentation">
+            <button class="text-white nav-link" id="pills-new-tab" data-bs-toggle="pill" data-bs-target="#pills-new" type="button" role="tab" aria-controls="pills-new" aria-selected="false">Latest</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="text-white nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">All Time Hits</button>
+          </li>
+        </ul>
+        <!-- End of Nav Pills Section -->
+        <div class="tab-content" id="pills-tabContent">
+
+          <!----------Start of Featured Tab--------------------- -->
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" style='color:white;'>
+              
+              <!-- Small song item 1 -->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">01</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/featuredimages/AyraStar.jfif"  alt="">
+                        <div class="ms-2">
+                            <div class="titlesong"> Ayrastar_Commas
+                            </div> 
+                            <small class="titlesong"> Afrobeats</small>
+                        </div>
+                   </div>
+
+                   <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('EhyzYPSHRQU')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item -->
+              <!-- Small song item 2-->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">02</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/featuredimages/Terrian.jfif"  alt="">
+                        <div class="ms-2">
+                            <div class="titlesong">Terrian - Big God</div> 
+                            <small class="titlesong"> Praises</small>
+                        </div>
+                   </div>
+                  <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('0jft6MfWN6k')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item2 -->
+              <!-- Small song item 3-->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">03</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/featuredimages/chronix.jfif"  alt="">
+                        <div class="ms-2">
+                            <div class="titlesong">Chronix - I can </div> 
+                            <small class="titlesong" > Reggea</small>
+                        </div>
+                   </div>
+                    <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;" onclick="playYouTubeVideo('fUREgj4i684')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item 3-->
+              <!-- Small song 4item -->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">04</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/featuredimages/krillz.jpg"  alt="">
+                        <div class="ms-2">
+                            <div class="titlesong">Krillz - Boujee</div> 
+                            <small class="titlesong"> Drills</small>
+                        </div>
+                   </div>
+                    <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('sd8C7z_MAdY')"></i>
+                   </div>
+               </div>
+              <!--End of Small song4 item -->
+          </div> 
+          <!----------End of of Featured Tab--------------------- -->
+
+           <!----------Start of of Trending Tab--------------------- -->
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"style='color:white;'>
+              <!-- Small song item 1 -->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">01</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/trendingimages/Dojacat.JPG"  alt="">
+                        <div class="ms-2">
+                            <div>Doja Cat   </div> 
+                            <small > Agora Hills Official</small>
+                        </div> 
+                   </div>
+                  <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('0c66ksfigtU')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item -->
+              <!-- Small song item 2-->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">02</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/trendingimages/LilDunk_All_MyLife"  alt="">
+                        <div class="ms-2">
+                            <div>Lil Durk ft J Cole</div> 
+                            <small >All My Life</small>
+                        </div>
+                   </div>
+                  <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('Z4N8lzKNfy4')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item2 -->
+              <!-- Small song item 3-->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">03</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/trendingimages/Tiktoker.JPG"  alt="">
+                        <div class="ms-2">
+                            <div>Gody Tennor x Tipsy Gee x Kappy</div> 
+                            <small > Tiktoker</small>
+                        </div>
+                   </div>
+                  <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('5ZdfOUA-lMw')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item 3-->
+              <!-- Small song 4item -->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">04</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/trendingimages/Huku-Alikiba&TommyFlavor.JPG"  alt="">
+                        <div class="ms-2">
+                            <div>Alikiba x Tommy Flavour</div> 
+                            <small > Huku</small>
+                        </div>
+                   </div>
+                  <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('-nVVIqcVRBk')"></i>
+                   </div>
+               </div>
+              <!--End of Small song4 item -->
+          </div>
+           <!----------End of of Trending Tab--------------------- -->
+
+            <!----------Start of of Latest Tab Tab--------------------- -->
+          <div class="tab-pane fade" id="pills-new" role="tabpanel" aria-labelledby="pills-new-tab" tabindex="0" style='color:white;'>
+             <!-- Small song item 1 -->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">01</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/featuredimages/AyraStar.jfif"  alt="">
+                        <div class="ms-2">
+                            <div class="titlesong"> Ayrastar
+                            </div> 
+                            <small class="titlesong">Commas</small>
+                        </div>
+                   </div>
+
+                   <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('EhyzYPSHRQU')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item -->
+              <!-- Small song item 2-->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">02</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/latestimages/shensea-Die4u.jpg"  alt="">
+                        <div class="ms-2">
+                            <div class="titlesong">shensea</div> 
+                            <small class="titlesong"> Die For You</small>
+                        </div>
+                   </div>
+                  <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('Izo45cvolkM')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item2 -->
+              <!-- Small song item 3-->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">03</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/latestimages/imagine Dragons_Eyes Closed.jpg"  alt="">
+                        <div class="ms-2">
+                            <div class="titlesong">Imagine Dragons  </div> 
+                            <small class="titlesong" >Eyes Closed</small>
+                        </div>
+                   </div>
+                    <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('v08qmr8m_-w')"></i>
+                   </div>
+               </div>
+              <!--End of Small song item 3-->
+              <!-- Small song 4item -->
+               <div class=" song-small m-1 ms-4 col-md-6 row  align-items-center" >
+                   <div class="col-1 h3">04</div>
+                   <div class="col d-flex">
+                        <img class="song-small-img rounded m-1" src="media/images/latestimages/suon_bwoii.JPG"  alt="">
+                        <div class="ms-2">
+                            <div>Suon_Bwoii</div> 
+                            <small >Pump Up</small>
+                        </div>
+                   </div>
+                  <div class="col-2">03:00 <i class="fas fa-play fa-sm" style="color: white; background:transparent;"  onclick="playYouTubeVideo('hEdjQ8kvkN4')"></i>
+                   </div>
+                   
+               </div>
+              <!--End of Small song4 item -->
+          </div>
+          <!----------End  of of All Latest Tab Tab--------------------- -->
+
+
+           <!----------Start of of All Time Hits Tab--------------------- -->
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"style='color:white;'>
+              <!-- Beginning of con1 class -->
+            <div class="con1" >
+                   <!-- Beginning of r1 class -->
+                <div class="r1">
+                     <!-- Beginning of first c1 class -->
+                    <div class="c1" id="column">
+                        <div class="feature-img" >
+                            <img src="media/images/alltime_hitsImages/jidenna-boomerang.JPG" Width="100%" alt="" >
+                            <img   alt=""  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('k2R5FNOEEGw')" > 
+                            
+                            <P>Jidenna- Boomerang </P>
+                        </div>          
+                    </div><!-- End of of c1 class -->
+                     <!-- Beginning of second c1 class -->
+                    <div class="c1">
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/images/alltime_hitsImages/Humble_Kendrick_Lamar.jpg"   alt="" >  
+                                <img  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('tvTRZJ-4EyI')"   alt="" > 
+                            </div>
+                            
+                                 <p>Kendrick Lamar  HUMBLE  <br>
+                                </p>
+                            
+                           
+                        </div>
+                        <div class="small-img-row">
+                                <div class="small-img">
+                                    <img src="media/images/alltime_hitsImages/2pac All Eyes on mes.jpg"   alt="" > 
+                                    <img  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('H1HdZFgR-aA')"  alt=""  > 
+                                </div>
+                                <p> 2 Pac All Eyes on Me  <br>
+                                    </p>                 
+                        </div>
+                        <div class="small-img-row">
+                            <div class="small-img">
+                                <img src="media/images/alltime_hitsImages/Shaggy - You Girl ft. Ne-Yo.jpg"   alt="" >
+                                <img  class="play-btn" src="media/images/play.png"onclick="playYouTubeVideo('P7DEOA03GG4')"  alt="" >  
+                            </div>
+                            <p>Shaggy - You Girl ft. Ne-Yo  <br>
+                            </p>                 
+                        </div>
+                            <!-- <div class="mcs">
+                                <img src="media/images/Wanda.jpg" width=""  alt=""  > 
+                                <audio class="music" width="50%"  controls src="media/Audio/y2mate.com - Jemere Morgan  International Love Official Music Video.mp3">  
+                                </audio>
+                                
+                                <p>Jemere morgan</p>  -->
+                    </div><!-- End of of second c1 class -->                 
+                </div><!-- End of r1 class -->
+            </div><!-- End of con1 class -->
+          </div>
+           <!----------End of of  All Time --------------------- -->
+
+          
+        </div>
+     </div>
+ <!-- -----------------------------------End of Hero area------------------------------------ -->
+
+
+ 
+<!-- -----------------------------------Beginning of  African HitsMusicCategory------------------------------------ -->
+<h5 class="song-category-title mx-5 pt-4">African Hits
+ <small class="float-end "><a href="#" style="text-decoration: none; color:lightblue;">View More</a>
+    <i class="bi bi-box-arrow-in-up-right text-#160FF3"></i></small>  </h5>
+<section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap:wrap;">
+        <!-- Song Card Start -->
+    <div class="m-4" style="width: 200px;">
+        <div style="position: relative;">
+            <img src="media/images/african_hits/Bien ft Scar Mkadinali - Lifestyle.jpg" class="big-song-img rounded img-fluid" >
+            <a href="#">
+                <div class="big-song-hover " >
+                    <img   alt=""  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('KNVecjT8PBQ')" > 
+                </div>
+            </a>
+            </div>
+            <div>
+                <div class="lead text-white">LifeStyle</div>
+                <small class="text-muted">Bien x Scar Mkadinali</small>
+            </div>
+    </div>
+    <!-- Song Card End -->
+
+    <!-- Song Card Start -->
+    <div class="m-4" style="width: 200px;">
+        <div style="position: relative;">
+            <img src="media/images/african_hits/NAKAM SAI LIL MAINA X SOSATHEPRODIGY.jpg" class="big-song-img rounded img-fluid" >
+            <a href="#">
+                <div class="big-song-hover " >
+                    <img   alt=""  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('1cyXGUlcRFs')" > 
+                </div>
+            </a>
+            </div>
+            <div>
+                <div class="lead text-white">NAKAM SAI </div>
+                <small class="text-muted">LIL MAINA X SOSATHEPRODIGY</small>
+            </div>
+    </div>
+    <!-- Song Card End -->
+
+    <!-- Song Card Start -->
+    <div class="m-4" style="width: 200px;">
+        <div style="position: relative;">
+            <img src="media/images/african_hits/Tyla - Water.jpg" class="big-song-img rounded img-fluid" >
+            <a href="#">
+                <div class="big-song-hover " >
+                    <img   alt=""  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('https://youtu.be/XoiOOiuH8iI')" > 
+                </div>
+            </a>
+            </div>
+            <div>
+                <div class="lead text-white">Tyla</div>
+                <small class="text-muted">Water</small>
+            </div>
+    </div>
+    <!--song card end-->
+
+    <!-- Song Card Start -->
+    <div class="m-4" style="width: 200px;">
+        <div style="position: relative;">
+            <img src="media/images/african_hits/TitoM & Yuppe - Tshwala Bam.jpg" class="big-song-img rounded img-fluid" >
+            <a href="#">
+                <div class="big-song-hover " >
+                    <img   alt=""  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('KK4dC7rASYs')" > 
+                </div>
+            </a>
+            </div>
+            <div>
+                <div class="lead text-white"> Bam  </div>
+                <small class="text-muted">TitoM  Yuppe  Tshwala Ft SNE</small>
+            </div>
+    </div>
+    <!-- Song Card End -->
+
+    <!-- Song Card Start -->
+    <div class="m-4" style="width: 200px;">
+        <div style="position: relative;">
+            <img src="media/images/african_hits/Crayon & Ayra Starr - Ngozi.jpg" class="big-song-img rounded img-fluid" >
+            <a href="#">
+                <div class="big-song-hover " >
+                    <img   alt=""  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('bzsSkarE4zw')" > 
+                </div>
+            </a>
+            </div>
+            <div>
+                <div class="lead text-white">Ngozi</div>
+                <small class="text-muted">Crayon x Ayra Starr </small>
+            </div>
+    </div>
+    <!-- Song Card End -->
+    
+    <!-- Song Card Start -->
+    <div class="m-4" style="width: 200px;">
+        <div style="position: relative;">
+            <img src="media/images/african_hits/Darassa feat Zuchu - Romeo.jpg" class="big-song-img rounded img-fluid" >
+            <a href="#">
+                <div class="big-song-hover " >
+                    <img   alt=""  class="play-btn" src="media/images/play.png" onclick="playYouTubeVideo('JzDH3PwLQMw')" > 
+                </div>
+            </a>
+            </div>
+            <div>
+                <div class="lead text-white">Romeo </div>
+                <small class="text-muted">Darassa feat Zuchu</small>
+            </div>
+    </div>
+    <!--song card end-->
+   
+                                                                                                                                                                                                                                        
+</section>
+<!-- -----------------------------------End of  Rock MusicCategory------------------------------------ -->
+   
+
+<!-- Custom Video Player -->
+<div class="video-player" id="videoPlayer" >
+    <div id="videoContainer"></div> <!-- This is where the video will be embedded -->
+
+    <img src="media/images/close.png" class="close-btn" onclick="stopVideo()" alt="">
+</div> 
+<!-- End of Custom Video Player -->       
+   
+
+<div id="floatingIcon" onclick="showPlayer()">
+  <i class="bi bi-door-open-fill text-white fs-1"></i>
+</div>
+
+
+
+
+<!-- Custom Video2Player -->
+    <!-- <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay  id="myVideo" controlsList="nodownload" oncontextmenu="return false;">  
+        </video>
+        <img src="media/images/close.png" class="close-btn" 
+        onclick="stopVideo()"  alt="" >
+    </div>  -->
+<!-- End of Custom Video Player -->
+
+<!-- Youtube Video Player -->
+    <!-- <div class="video-player" id="youtubePlayer" style="display: block;" > -->
+        <!-- YouTube video will be embedded here -->
+        <!-- <img src="media/images/close.png" class="close-btn" onclick="stopYoutubeVideo()" alt=""> -->
+    <!-- </div>  -->
+<!-- End of Youtube Video Player -->
+<!-- -------------------Footer------------------------------------------------------- -->
+ <footer class="p-5 pt-4  row bg-dark text-white" style="width:100.9%;">
+        
+        <div class="col-md-3 mb-4 col-sm-6">
+            <h5>Quick links</h5>
+            <ul class="nav flex-column">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 mb-4 col-sm-6">
+            <h5>Quick links</h5>
+            <ul class="nav flex-column">
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">New releases</a></li>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="col-md-6 mb-4">
+            <h5>Subscribe to our newsletter</h5>
+            <div>to receive news content</div>
+
+            <div class="input-group mb-3 mt-2">
+              <input type="text" class="form-control" placeholder="Email" >
+              <span class="bg-primary text-white input-group-text" id="basic-addon2">Subscribe</span>
+            </div>
+
+            <div class="text-white h5 ">
+                Follow us: 
+                <a href="">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+       
+
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Font awesome -->
+<script src="https://kit.fontawesome.com/e7e37a5f37.js" crossorigin="anonymous"></script>
+<!-- Youtube Api----------------- -->
+<script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>

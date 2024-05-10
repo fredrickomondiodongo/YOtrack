@@ -298,7 +298,7 @@ iframe{
 }
 
 .hero-area{
-    background-image: url(../media/images/backgroundImages/14.jpg);
+    background-image: url(media/images/backgroundImages/14.jpg);
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,13 +308,13 @@ iframe{
 /*    margin-top:-80px;*/
 }
 @keyframes changeBackground {
-    0% {  background-image: url(../media/images/backgroundImages/14.jpg);}
-    10% { background-image: url(../media/images/backgroundImages/11.jpg); }
-    25% { background-image: url(../media/images/backgroundImages/12.jpg); }
-    50% { background-image: url(../media/images/backgroundImages/13.jpg); }
-    75% { background-image: url(../media/images/backgroundImages/09.jpg); }
-    85% { background-image: url(../media/images/backgroundImages/09.jpg); }
-    100% { background-image: url(../media/images/backgroundImages/pic1.png); }
+    0% {  background-image: url(media/images/backgroundImages/14.jpg);}
+    10% { background-image: url(media/images/backgroundImages/11.jpg); }
+    25% { background-image: url(media/images/backgroundImages/12.jpg); }
+    50% { background-image: url(media/images/backgroundImages/13.jpg); }
+    75% { background-image: url(media/images/backgroundImages/09.jpg); }
+    85% { background-image: url(media/images/backgroundImages/09.jpg); }
+    100% { background-image: url(media/images/backgroundImages/pic1.png); }
 }
 
 .hero-nav .active{
